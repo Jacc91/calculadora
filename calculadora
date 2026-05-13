@@ -1,0 +1,15 @@
+public class calculadora {
+
+    /**
+     * Ejecuta la calculadora - esto es una prueba de calculadora simple que suma dos números.
+     * @author: Yonatan Camacho
+     * @version: 1.0
+     * @since: 2024-06
+     */
+    public static void main (String[] args) {
+        System.out.printf ( " --- Ejecutando - - Calculadora - - - " ) ;
+        double n1 = 10.5;
+        double n2 = 5.2;
+        System.out.printf ( "Resultado: %f", (n1+n2) );
+    }
+}
